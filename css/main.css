@@ -115,6 +115,10 @@ h1 {
   background-color: #B7B7B7;
 }
 
+.brushes {
+  background-color: #5D5D5D;
+}
+
 ul li {
   list-style-type: bullets;
   display: block;
