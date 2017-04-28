@@ -39,6 +39,7 @@ nav a {
   text-decoration: none;
   width: 100%;
   transition: 550ms;
+  padding: .3rem;
 }
 
 ul {
