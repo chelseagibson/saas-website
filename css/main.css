@@ -11,7 +11,6 @@ html {
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
   font-family: 'Roboto Slab', serif;
-  text-align: center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -22,12 +21,12 @@ ul {
   list-style-type: none;
   margin: 0;
   padding: 0px;
-  text-align: right;
 }
 
 header {
   text-align: center;
   background-color: #dae135;
+  padding: 1em;
 }
 
 footer {
@@ -50,16 +49,24 @@ ul {
 
 ol {
   text-align: right;
-  width: 50%;
+  width: 30%;
 }
 
 li {
   display: inline-block;
+  float: right;
 }
 
 li a:hover {
   background-color: #868c03;
   color: #fff;
+  border-radius: 5px;
+}
+
+.banner-content {
+  left: 50%;
+  top: 10%;
+  transform: translateX(-50%);
 }
 
 a:active {
@@ -73,7 +80,6 @@ li:first-child a {
 
 .img-flex {
   display: block;
-  width: 100%;
 }
 
 .image {
@@ -81,37 +87,60 @@ li:first-child a {
   width: 100%;
 }
 
-h2 {
+h1 {
+  color: white;
+  font: bold 20px/45px Roboto Slab, Serif;
+  letter-spacing: 2px;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.7);
+  border-radius: 3px
+  padding: 10px;
   position: absolute;
-  top: 200px;
+  top: 100px;
   left: 0;
   width: 100%;
 }
 
-h1 span {
+p {
   color: white;
-  font: bold 24px/45px Roboto Slab, Serif;
-  letter-spacing: -1px;
+  letter-spacing: 2px;
   background: rgb(0, 0, 0);
   background: rgba(0, 0, 0, 0.7);
+  border-radius: 3px
   padding: 10px;
+  top: 300px;
+  position: absolute;
+  left: 0;
+  width: 100%;
+}
+
+.value-proposition {
+  border-radius: 8px;
 }
 
 header nav {
-  display: block;
-}
-
-header nav li {
-  text-align: center;
-  width: 100%;
+  display: inline-block;
+  padding: 1em;
 }
 
 .sign-up{
   position: absolute;
 }
 
+.btn {
+  transition: .5s ease;
+  top: -300px;
+  left: 420px;
+  right: -420px;
+  bottom: -191px;
+}
+
 footer ol li {
   display: inline;
+}
+
+.about {
+  background-color: white;
 }
 
 .logo {
