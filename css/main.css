@@ -19,6 +19,8 @@ html {
 
 ul {
   list-style-type: none;
+  padding: 0;
+  list-style-type: none;
 }
 
 header {
@@ -37,11 +39,6 @@ nav a {
   width: 100%;
   transition: 550ms;
   padding: .3rem;
-}
-
-ul {
-  padding: 0;
-  list-style-type: none;
 }
 
 ol {
@@ -97,12 +94,11 @@ li:first-child a {
 
 h1 {
   color: white;
-  font: bold 15px Roboto Slab, Serif;
+  font: bold 15px "Roboto Slab", serif;
   background: rgb(0, 0, 0);
   background: rgba(0, 0, 0, 0.7);
   top: 300px;
   margin-top: 100px;
-  left: 0;
   width: 100%;
 }
 
@@ -112,11 +108,11 @@ h1 {
 }
 
 .colours {
-  background-color: #B7B7B7;
+  background-color: #b7b7b7;
 }
 
 .brushes {
-  background-color: #5D5D5D;
+  background-color: #5d5d5d;
 }
 
 ul li {
@@ -149,7 +145,7 @@ h2 {
   text-align: center;
 }
 
-.sign-up{
+.sign-up {
   position: absolute;
 }
 
@@ -175,5 +171,5 @@ footer ol li {
 }
 
 .logo {
-  max-width: 7rem;
+  max-width: 20rem;
 }
