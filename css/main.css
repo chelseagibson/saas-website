@@ -108,7 +108,17 @@ h1 {
 
 .products,
 .gallery {
-  background-color: #868c03; 
+  background-color: #868c03;
+}
+
+.colours {
+  background-color: #B7B7B7;
+}
+
+ul li {
+  list-style-type: bullets;
+  display: block;
+  margin-left: 15%;
 }
 
 span {
