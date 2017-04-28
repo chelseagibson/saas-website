@@ -19,12 +19,9 @@ html {
 
 ul {
   list-style-type: none;
-  margin: 0;
-  padding: 0px;
 }
 
 header {
-  text-align: center;
   background-color: #dae135;
   padding: 1em;
 }
@@ -52,9 +49,20 @@ ol {
   width: 30%;
 }
 
+img.center {
+  width: 200px;
+  height: auto;
+}
+
+figcaption {
+  color: white;
+  font-weight: bold;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.7);
+}
+
 li {
   display: inline-block;
-  float: right;
 }
 
 li a:hover {
@@ -92,8 +100,6 @@ h1 {
   font: bold 15px Roboto Slab, Serif;
   background: rgb(0, 0, 0);
   background: rgba(0, 0, 0, 0.7);
-  border-radius: 3px
-  position: absolute;
   top: 300px;
   left: 0;
   width: 100%;
@@ -119,6 +125,7 @@ header nav {
 }
 
 h2 {
+  padding: 0;
   text-align: center;
 }
 
