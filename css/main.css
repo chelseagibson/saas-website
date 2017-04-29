@@ -10,7 +10,7 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
-  font-family: 'Roboto Slab', serif;
+  font-family: "Roboto Slab", serif;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -20,7 +20,6 @@ html {
 ul {
   list-style-type: none;
   padding: 0;
-  list-style-type: none;
 }
 
 header {
@@ -39,6 +38,7 @@ nav a {
   width: 100%;
   transition: 550ms;
   padding: .3rem;
+  float: right;
 }
 
 ol {
@@ -159,7 +159,7 @@ h2 {
 
 .paint-bucket {
   text-align: center;
-  margin-left: 445px;
+  margin-left: 50%;
 }
 
 footer ol li {
@@ -172,4 +172,10 @@ footer ol li {
 
 .logo {
   max-width: 20rem;
+  float: left;
+}
+
+.filler {
+  display: none;
+  visibility: hidden;
 }
