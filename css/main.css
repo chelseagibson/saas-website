@@ -55,7 +55,7 @@ figcaption {
   color: white;
   font-weight: bold;
   background: rgb(0, 0, 0);
-  background: rgba(0, 0, 0, 0.7);
+  background: rgba(0, 0, 0, 7);
 }
 
 li {
@@ -96,7 +96,7 @@ h1 {
   color: white;
   font: bold 15px "Roboto Slab", serif;
   background: rgb(0, 0, 0);
-  background: rgba(0, 0, 0, 0.7);
+  background: rgba(0, 0, 0, 7);
   top: 300px;
   margin-top: 100px;
   width: 100%;
