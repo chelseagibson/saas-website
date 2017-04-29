@@ -179,3 +179,12 @@ footer ol li {
   display: none;
   visibility: hidden;
 }
+
+@media only screen and (min-width: 25em) {
+
+  h1 {
+    top: 0;
+    margin-top: 0;
+  }
+
+}
